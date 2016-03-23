@@ -7,8 +7,8 @@ algoritmo "soma-de-dois-numeros"
 var
    a, b, soma: real
 
-// Seção de Comandos
 inicio
+   // Seção de Comandos
    escreva("Digite o primeiro número: ")
    leia(a)
    escreva("Digite o segundo número: ")
