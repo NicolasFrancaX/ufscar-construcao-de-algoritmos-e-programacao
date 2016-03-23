@@ -8,7 +8,7 @@ var
    a, b, soma: real
 
 inicio
-   // Seção de Comandos
+// Seção de Comandos
    escreva("Digite o primeiro número: ")
    leia(a)
    escreva("Digite o segundo número: ")
