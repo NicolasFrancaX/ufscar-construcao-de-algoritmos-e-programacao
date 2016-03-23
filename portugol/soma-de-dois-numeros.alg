@@ -5,12 +5,14 @@ algoritmo "soma-de-dois-numeros"
 
 // Seção de Declarações
 var
-a, b, soma: real
+   a, b, soma: real
 
 // Seção de Comandos
 inicio
-leia(a)
-leia(b)
-soma <- a + b
-escreva(soma)
+   escreva("Digite o primeiro número: ")
+   leia(a)
+   escreva("Digite o segundo número: ")
+   leia(b)
+   soma <- a + b
+   escreva("A soma de", a, " +", b, " é igual a", soma)
 fimalgoritmo
