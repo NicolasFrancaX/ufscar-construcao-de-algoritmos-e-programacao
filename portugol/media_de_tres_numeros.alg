@@ -18,13 +18,13 @@ inicio
    media <- (nota_1 + nota_2 + nota_3) / 3
    
    se (media < 5) entao
-     escreval("Reprovado.")
+     escreval("Reprovado. Media", media)
    senao
      se (media >= 6) entao
-       escreval("Aprovado.")
+       escreval("Aprovado. Media", media)
      senao
        se (media >= 5) e (media < 6) entao
-         escreval("Recuperação.")
+         escreval("Recuperação. Media")
        fimse
      fimse
    fimse
