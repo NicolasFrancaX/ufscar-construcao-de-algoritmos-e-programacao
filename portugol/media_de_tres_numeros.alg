@@ -20,11 +20,13 @@ inicio
    se (media < 5) entao
      escreval("Reprovado. Media", media)
    senao
-     se (media >= 6) entao
+     se (media >= 6) e (media <= 10) entao
        escreval("Aprovado. Media", media)
      senao
        se (media >= 5) e (media < 6) entao
          escreval("Recuperação. Media")
+       senao
+         escreval("Media maior que 10.")
        fimse
      fimse
    fimse
