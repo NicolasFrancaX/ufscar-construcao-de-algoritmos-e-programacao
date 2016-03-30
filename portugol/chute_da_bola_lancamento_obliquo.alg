@@ -14,6 +14,6 @@ inicio
   radianos <- (graus * pi) / 180
   escreval("Digite a velocidade inicial da bola: ")
   leia(velocidade_inicial)
-  distancia <- (velocidade_inicial * velocidade_inicial * cos(radianos) * sen(radianos)) / 10
+  distancia <- (velocidade_inicial * velocidade_inicial * sen(2 * radianos)) / 10
   escreval("A distância percorrida foi:", distancia)
 fimalgoritmo
