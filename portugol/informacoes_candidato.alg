@@ -7,7 +7,6 @@ algoritmo "Informações candidato"
 var
   nome: caractere
   nota_portugues, nota_matematica, nota_conhecimentos, media: real
-  aprovacao: logico
 
 inicio
 // Seção de Comandos 
