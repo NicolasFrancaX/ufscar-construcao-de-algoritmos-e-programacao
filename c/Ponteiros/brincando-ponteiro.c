@@ -1,14 +1,18 @@
 #include <stdio.h>
 
+/*
+ * Usando conceitos de ponteiros.
+ *
+ */
 int main() {
-    int x = 10;
-    int *ponteiro;
-    ponteiro = &x;
+    int count = 10;
+    int *m = &count;
+    int q = *m;
 
-    int y = 20;
-    *ponteiro = y;
+    printf("%d\n", count);
+    printf("%d\n", m);
+    printf("%d\n", q);
 
-    printf("%d %d\n", x, y);
 
     return 0;
 }
