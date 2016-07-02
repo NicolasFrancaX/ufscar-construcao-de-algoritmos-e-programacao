@@ -1,0 +1,4 @@
+Bom dia!
+Resultado: 3
+soma = 102.000000       quociente =   1.200000
+2 3
